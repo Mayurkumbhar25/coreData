@@ -14,6 +14,7 @@
 		7776DC8F20C153F70028B0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7776DC8E20C153F70028B0A8 /* Assets.xcassets */; };
 		7776DC9220C153F70028B0A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7776DC9020C153F70028B0A8 /* LaunchScreen.storyboard */; };
 		7776DC9520C153F70028B0A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7776DC9420C153F70028B0A8 /* main.m */; };
+		7776DC9D20C154530028B0A8 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7776DC9C20C154530028B0A8 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		7776DC9120C153F70028B0A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7776DC9320C153F70028B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7776DC9420C153F70028B0A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7776DC9B20C154530028B0A8 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		7776DC9C20C154530028B0A8 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				7776DC8320C153F60028B0A8 /* AppDelegate.m */,
 				7776DC8520C153F60028B0A8 /* ViewController.h */,
 				7776DC8620C153F60028B0A8 /* ViewController.m */,
+				7776DC9B20C154530028B0A8 /* NextViewController.h */,
+				7776DC9C20C154530028B0A8 /* NextViewController.m */,
 				7776DC8820C153F60028B0A8 /* Main.storyboard */,
 				7776DC8E20C153F70028B0A8 /* Assets.xcassets */,
 				7776DC9020C153F70028B0A8 /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7776DC9D20C154530028B0A8 /* NextViewController.m in Sources */,
 				7776DC8720C153F60028B0A8 /* ViewController.m in Sources */,
 				7776DC8D20C153F60028B0A8 /* coreData.xcdatamodeld in Sources */,
 				7776DC9520C153F70028B0A8 /* main.m in Sources */,
